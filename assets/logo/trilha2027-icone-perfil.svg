@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="t d">
+  <title id="t">Trilha2027 (ícone de perfil)</title>
+  <desc id="d">Ícone quadrado para foto de perfil e favicon: tijolos em degraus subindo até uma bandeira, sobre fundo azul.</desc>
+  <rect width="200" height="200" rx="44" fill="#14365D"/>
+  <g transform="translate(13 18.8) scale(1.45)"><g id="icone">
+    <rect x="8" y="84" width="32" height="22" rx="5" fill="#FFFFFF"/>
+    <rect x="44" y="84" width="32" height="22" rx="5" fill="#FFFFFF"/>
+    <rect x="80" y="84" width="32" height="22" rx="5" fill="#FFFFFF"/>
+    <rect x="44" y="58" width="32" height="22" rx="5" fill="#7FD1D8"/>
+    <rect x="80" y="58" width="32" height="22" rx="5" fill="#7FD1D8"/>
+    <rect x="80" y="32" width="32" height="22" rx="5" fill="#2FA3AB"/>
+    <rect x="86" y="6" width="3.5" height="26" rx="1.75" fill="#FFFFFF"/>
+    <path d="M89.5 7 L111 14.5 L89.5 22 Z" fill="#F2C46D" stroke="#F2C46D" stroke-width="2" stroke-linejoin="round"/>
+  </g></g>
+</svg>
