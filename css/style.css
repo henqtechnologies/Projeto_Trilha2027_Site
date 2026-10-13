@@ -150,6 +150,17 @@ p {
   width: 100%;
 }
 
+.lead-link {
+  margin: 18px 0 0;
+  font-size: .95rem;
+  color: #D4E2EE
+}
+
+.lead-link a {
+  color: var(--amber-2);
+  font-weight: 700
+}
+
 /* cabeçalho */
 .site-header {
   position: sticky;
