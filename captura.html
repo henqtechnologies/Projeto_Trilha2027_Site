@@ -2,12 +2,13 @@
 <html lang="pt-BR">
 
 <head>
+  <meta charset="utf-8">
   <!-- Meta Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -21,7 +22,6 @@
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1340588766999159&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guia gratuito: checklist da rotina semanal de estudo | Trilha2027</title>
   <meta name="description"
@@ -32,7 +32,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-  <!-- RASTREAMENTO: cole aqui o snippet do Meta Pixel e/ou Google Tag. Esta página dispara o evento Lead ao enviar o formulário. -->
   <style>
     :root {
       --navy: #14365D;
@@ -687,14 +686,6 @@
     $("#price").textContent = CONFIG.price;
     const vendas = $("#sales"); vendas.href = carry(CONFIG.salesUrl);
     vendas.addEventListener("click", () => track("cta_click", { place: "captura" }));
-  </script>
-
-  <script>
-    window.addEventListener('message', function (event) {
-      if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
-        fbq('track', 'Lead');
-      }
-    });
   </script>
 </body>
 
